@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "circomlibjs": "^0.1.7",
+    "snarkjs": "^0.7.5"
+  },
+  "description": "zkVerify Agent Games — Track 1 Proof Gatekeeper agent (fail-closed payment gatekeeper)",
+  "name": "zkv-proof-gatekeeper-agent",
+  "private": false,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test --test-force-exit test/checks.test.js test/validate.test.js test/hmac.test.js test/server.test.js test/circuitInputs.test.js"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
